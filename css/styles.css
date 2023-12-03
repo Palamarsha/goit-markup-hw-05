@@ -811,15 +811,21 @@ margin-bottom: 16px;
     justify-content: center;
     margin-top: 80px;
     background-color: #2E2F42, rgba(46, 47, 66, 0.40);;
-    opacity: 0;
+    /* opacity: 0;
     visibility: hidden;
-    pointer-events: none;  
+    pointer-events: none;   */
  
 }
 
 .user-name-wrapper{
     width: 360px;
     height: 58px;
+    color:#8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
 }
 
 .backdrop-icons{
@@ -829,14 +835,16 @@ margin-bottom: 16px;
 .comment{
     resize: none;
     color: rgba(46, 47, 66, 0.40);
-        font-size: 12px;
-        font-weight: 400;
-        line-height:1.17;
-        letter-spacing: 0.04em;
-        width: 360px;
-        height: 120px;
-        padding-top: 8px;
-        padding-left: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height:1.17;
+    letter-spacing: 0.04em;
+    width: 360px;
+    height: 120px;
+    padding-top: 8px;
+    padding-left: 16px;
+    border-radius: 4px;
+    border: 1px solid #2E2F4266, rgba(46, 47, 66, 0.40);
 }
 
 .backdrop-text{
@@ -918,8 +926,7 @@ margin-bottom: 16px;
     margin-top: 32px;
     margin-right: 32px;
     margin-bottom: 24px;
-    border: ;
-    border-radius: 50px;
+   border-radius: 50px;
     fill:  #E7E9FC;
     stroke-width: 1px;
     stroke: rgba(0, 0, 0, 0.10);
@@ -935,4 +942,44 @@ stroke: #2E2F42;
 
 .textarea{
     margin-bottom: 16px;
+}
+
+.user-subscription{
+    color:#FFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+
+.footer-form{
+
+ display: block;
+}
+
+.subscribe-email{
+width: 264px;
+height: 40px;
+background:#2E2F42;
+color: #FFF;
+font-size: 12px;
+font-weight: 400;
+line-height: 2;
+letter-spacing: 0.04em;
+padding-top: 8px;
+padding-left: 16px;
+
+}
+
+.subscribe-btn{
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+border-radius: 4px;
+background:  #4D5AE5;
 }
