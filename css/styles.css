@@ -829,7 +829,8 @@ margin-bottom: 16px;
 }
 
 .backdrop-icons{
-  stroke: #2E2F42;  
+  stroke: #2E2F42; 
+  position: absolute; 
 }
 
 .comment{
@@ -982,4 +983,8 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 border-radius: 4px;
 background:  #4D5AE5;
+}
+
+.levels{
+    position: relative;
 }
