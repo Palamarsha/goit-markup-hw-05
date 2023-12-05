@@ -709,21 +709,26 @@
      </footer>
 
      <div class="backdrop is-open">
-        <form class="backdrop-box">
+       
             <button class="close-btn" type="button">
                 <svg class="close-btn-icon" width="8" height="8" aria-label="close button">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
 
-            <p class="backdrop-text">Leave your contacts and we will call you back</p>
-            <label class="user-name-wrapper" for="user-name">Name</label>
-            <div class="levels">
-                <input class="user-info" type="text" name="user-name" id="user-name" required>
-                <svg class="backdrop-icons" width="18" height="18" aria-label="user name">
-                    <use href="./images/icons.svg#icon-Vector">
-                    </use>
-                </svg>
+             <p class="backdrop-text">Leave your contacts and we will call you back</p>
+             <form class="backdrop-box"></form>
+       
+                 <div class="levels">
+               
+                     <label class="user-name-wrapper" for="user-name">Name</label>
+                     <div class="box">
+                         <input class="user-info" type="text" name="user-name" id="user-name" required>
+                              <svg class="backdrop-icons" width="18" height="18" aria-label="user name">
+                                <use href="./images/icons.svg#icon-Vector">
+                                 </use>
+                             </svg>
+                     </div>
                 
             </div>
            
@@ -760,7 +765,7 @@
             <button class="backdrop-btn" type="submit">Send</button>
 
             
-        </form>
+        
 
 
 
