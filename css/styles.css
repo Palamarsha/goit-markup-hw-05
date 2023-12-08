@@ -904,11 +904,11 @@ border-color: #4D5AE5;
 }
 
 .checkbox-text{
- color: #8E8F99;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
+color: #8E8F99;
+font-size: 12px;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: 0.04em;
    
     
    
@@ -941,7 +941,7 @@ align-content: start;
 
 }
 
-.checkbox-text:checked + .checkbox > .checkbox-agree{
+.checkbox-text:checked + .privacy-policy-link > .checkbox-agree{
     fill:#F4F4FD;
     background-color:#404bbf;
     border: none;
