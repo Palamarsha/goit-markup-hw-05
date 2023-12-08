@@ -878,6 +878,11 @@ border-color: #4D5AE5;
     outline: transparent;
 }
 
+.user-info:focus {
+    border-color: #4D5AE5;
+    fill: #4D5AE5;
+}
+
  .user-info:focus + .backdrop-icons {
    border-color:#4D5AE5; 
    fill: #4D5AE5;
