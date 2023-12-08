@@ -895,12 +895,12 @@ border-color: #4D5AE5;
 }
 
 .checkbox {
-    margin-bottom: 24px;
-    display: flex;
+    
+    display:block;
     width: 100%;
     margin: auto;
     position: relative;
-
+ margin-bottom: 24px;
 }
 
 .checkbox-text{
@@ -938,6 +938,7 @@ fill: transparent;
 border-radius: 2px;
 display: flex;
 align-content: start;
+margin-right: 8px;
 
 }
 
