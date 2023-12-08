@@ -948,6 +948,10 @@ display: inline-flex;
     border: none;
 }
 
+.checkbox-text:focus +.privacy-policy-link > .checkbox-agree{
+    outline: 1px solid rgba(0,0,255,0.3);
+}
+
 .backdrop-btn{
     border-radius: 4px;
     background:#4D5AE5;
